@@ -1,7 +1,15 @@
+# general
 .DS_Store
-temp/*
-*.log
-*.tmp
-*.bak
-.venv/
+.env
+.env.*
+!.env.example
+
+# python/node/go junk if it shows up
 __pycache__/
+node_modules/
+dist/
+build/
+
+# docker
+*.log
+docker-data/
